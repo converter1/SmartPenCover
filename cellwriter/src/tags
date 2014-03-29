@@ -1,0 +1,725 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_PROGRAM_AUTHOR	Darren Hiebert	/dhiebert@users.sourceforge.net/
+!_TAG_PROGRAM_NAME	Exuberant Ctags	//
+!_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
+!_TAG_PROGRAM_VERSION	5.9~svn20110310	//
+ALTERNATES	cellwidget.c	70;"	d	file:
+ANGLE	common.h	/^typedef int ANGLE;$/;"	t
+ANGLE	common.h	/^typedef short ANGLE;$/;"	t
+ANGLE	common.h	/^typedef signed char ANGLE;$/;"	t
+ANGLE_PI	common.h	182;"	d
+ANGLE_PI	common.h	188;"	d
+ANGLE_PI	common.h	194;"	d
+ANGLE_SIZE	common.h	176;"	d
+CELL_BASELINE	cellwidget.c	71;"	d	file:
+CELL_BORDER	cellwidget.c	72;"	d	file:
+CELL_DIRTY	cellwidget.c	81;"	d	file:
+CELL_HEIGHT_MAX	options.c	174;"	d	file:
+CELL_HEIGHT_MIN	options.c	173;"	d	file:
+CELL_SHIFTED	cellwidget.c	83;"	d	file:
+CELL_SHOW_INK	cellwidget.c	80;"	d	file:
+CELL_VERIFIED	cellwidget.c	82;"	d	file:
+CELL_WIDTH_MIN	options.c	172;"	d	file:
+COLOR_SCALE	common.h	100;"	d
+Cell	cellwidget.c	/^struct Cell {$/;"	s	file:
+Cell	recognize.h	/^typedef struct Cell Cell;$/;"	t	typeref:struct:Cell
+DOT_SIZE	cellwidget.c	86;"	d	file:
+DOT_SPREAD	recognize.h	85;"	d
+EGG_IS_TRAY_ICON	libegg/eggtrayicon.h	33;"	d
+EGG_IS_TRAY_ICON_CLASS	libegg/eggtrayicon.h	34;"	d
+EGG_TRAY_ICON	libegg/eggtrayicon.h	31;"	d
+EGG_TRAY_ICON_CLASS	libegg/eggtrayicon.h	32;"	d
+EGG_TRAY_ICON_GET_CLASS	libegg/eggtrayicon.h	35;"	d
+EGG_TYPE_TRAY_ICON	libegg/eggtrayicon.h	30;"	d
+ENGINES	recognize.h	/^        ENGINES$/;"	e	enum:__anon3
+ENGINE_AVGANGLE	recognize.h	/^        ENGINE_AVGANGLE,$/;"	e	enum:__anon3
+ENGINE_AVGDIST	recognize.h	/^        ENGINE_AVGDIST,$/;"	e	enum:__anon3
+ENGINE_PREP	recognize.h	/^        ENGINE_PREP,$/;"	e	enum:__anon3
+ENGINE_SCALE	recognize.h	82;"	d
+ENGINE_WORDFREQ	recognize.h	/^        ENGINE_WORDFREQ,$/;"	e	enum:__anon3
+ERASER_BUTTON_MASK	cellwidget.c	1269;"	d	file:
+EV_PRESSED	cellwidget.c	62;"	d	file:
+EV_RELEASED	cellwidget.c	61;"	d	file:
+EggTrayIcon	libegg/eggtrayicon.h	/^typedef struct _EggTrayIcon	  EggTrayIcon;$/;"	t	typeref:struct:_EggTrayIcon
+EggTrayIconClass	libegg/eggtrayicon.h	/^typedef struct _EggTrayIconClass  EggTrayIconClass;$/;"	t	typeref:struct:_EggTrayIconClass
+Engine	recognize.h	/^} Engine;$/;"	t	typeref:struct:__anon4
+FALSE	common.h	107;"	d
+FINE_ELASTICITY	recognize.h	136;"	d
+FINE_RESOLUTION	recognize.h	135;"	d
+GLUABLE_MAX	recognize.h	38;"	d
+GLUABLE_PENALTY	preprocess.c	43;"	d	file:
+GLUE_DIST	recognize.h	88;"	d
+GLUE_PENALTY	preprocess.c	44;"	d	file:
+HISTORY_MAX	common.h	30;"	d
+HOLD_CLICK_WIDTH	cellwidget.c	1266;"	d	file:
+KEYBOARD_SIZE_MIN	common.h	31;"	d
+KEY_ALLOCATED	keyevent.c	/^        KEY_ALLOCATED,   \/* Normally usable, but currently allocated *\/$/;"	e	enum:__anon14	file:
+KEY_ARROW	keys.h	49;"	d
+KEY_BAD	keyevent.c	/^        KEY_BAD,         \/* Manually marked as unusable *\/$/;"	e	enum:__anon14	file:
+KEY_CAPS_LOCK	keys.h	56;"	d
+KEY_ICON_MASK	keys.h	52;"	d
+KEY_ICON_SHIFT	keys.h	57;"	d
+KEY_NUM_LOCK	keys.h	58;"	d
+KEY_NUM_LOCKABLE	keys.h	59;"	d
+KEY_SHIFT	keys.h	54;"	d
+KEY_SHIFTABLE	keys.h	55;"	d
+KEY_STICKY	keys.h	53;"	d
+KEY_TAKEN	keyevent.c	/^        KEY_TAKEN = 0,   \/* Has KeySyms, cannot be overwritten *\/$/;"	e	enum:__anon14	file:
+KEY_TOGGLE_OFF	keys.h	51;"	d
+KEY_TOGGLE_ON	keys.h	50;"	d
+KEY_USABLE	keyevent.c	/^        KEY_USABLE,      \/* Has no KeySyms, can be overwritten *\/$/;"	e	enum:__anon14	file:
+KEY_WIDGET_BORDER	cellwidget.c	74;"	d	file:
+KEY_WIDGET_COLS	cellwidget.c	73;"	d	file:
+Key	keys.h	/^} Key;$/;"	t	typeref:struct:__anon12
+KeyEvent	keys.h	/^} KeyEvent;$/;"	t	typeref:struct:__anon11
+KeyWidget	keys.h	/^} KeyWidget;$/;"	t	typeref:struct:__anon13
+LOG_LEVEL_TRACE	common.h	156;"	d
+MAX_DIST	recognize.h	32;"	d
+MAX_RANGE	recognize.h	79;"	d
+MEASURE_ANGLE	averages.c	35;"	d	file:
+MEASURE_DIST	averages.c	34;"	d	file:
+MOTION_TIMEOUT	cellwidget.c	77;"	d	file:
+MeasureFunc	recognize.h	/^typedef float (*MeasureFunc)(Stroke *a, int i, Stroke *b, int j, void *extra);$/;"	t
+NULL	common.h	110;"	d
+NUM_PROFILE_CMDS	main.c	612;"	d	file:
+N_	libegg/eggtrayicon.c	30;"	d	file:
+PEN_SIZE	cellwidget.c	87;"	d	file:
+POINTS_GRAN	stroke.c	39;"	d	file:
+POINTS_MAX	recognize.h	28;"	d
+POSITION_MENU_FUNC	statusicon.c	69;"	d	file:
+POSITION_MENU_FUNC	statusicon.c	71;"	d	file:
+PREP_MAX	preprocess.c	34;"	d	file:
+PREP_SAMPLES	preprocess.c	35;"	d	file:
+PROFILE_VERSION	main.c	235;"	d	file:
+PROP_0	libegg/eggtrayicon.c	/^  PROP_0,$/;"	e	enum:__anon8	file:
+PROP_ORIENTATION	libegg/eggtrayicon.c	/^  PROP_ORIENTATION$/;"	e	enum:__anon8	file:
+Point	recognize.h	/^} Point;$/;"	t	typeref:struct:__anon1
+RATING_MAX	recognize.h	128;"	d
+RATING_MIN	recognize.h	129;"	d
+RGB_TO_GDKCOLOR	common.h	114;"	d
+ROUGH_ELASTICITY	recognize.h	140;"	d
+ROUGH_RESOLUTION	recognize.h	139;"	d
+SAMPLES_MAX	recognize.h	132;"	d
+SCALE	recognize.h	31;"	d
+SIMPLIFY_THRESHOLD	stroke.c	36;"	d	file:
+STROKES_MAX	recognize.h	35;"	d
+STROKE_SIZE	stroke.c	42;"	d	file:
+SYSTEM_TRAY_BEGIN_MESSAGE	libegg/eggtrayicon.c	33;"	d	file:
+SYSTEM_TRAY_CANCEL_MESSAGE	libegg/eggtrayicon.c	34;"	d	file:
+SYSTEM_TRAY_ORIENTATION_HORZ	libegg/eggtrayicon.c	36;"	d	file:
+SYSTEM_TRAY_ORIENTATION_VERT	libegg/eggtrayicon.c	37;"	d	file:
+SYSTEM_TRAY_REQUEST_DOCK	libegg/eggtrayicon.c	32;"	d	file:
+Sample	recognize.h	/^} Sample;$/;"	t	typeref:struct:__anon6
+SampleLink	recognize.c	/^typedef struct SampleLink {$/;"	s	file:
+SampleLink	recognize.c	/^} SampleLink;$/;"	t	typeref:struct:SampleLink	file:
+SingleInstanceFunc	common.h	/^typedef void (*SingleInstanceFunc)(const char *msg);$/;"	t
+Stroke	recognize.h	/^} Stroke;$/;"	t	typeref:struct:__anon2
+TRUE	common.h	104;"	d
+Transform	recognize.h	/^} Transform;$/;"	t	typeref:struct:__anon5
+UnicodeBlock	common.h	/^} UnicodeBlock;$/;"	t	typeref:struct:__anon9
+VALUE_MAX	preprocess.c	38;"	d	file:
+VALUE_MIN	preprocess.c	39;"	d	file:
+VERTICAL_PENALTY	preprocess.c	42;"	d	file:
+Vec2	common.h	/^typedef struct Vec2 {$/;"	s
+Vec2	common.h	/^} Vec2;$/;"	t	typeref:struct:Vec2
+WELCOME_MSG	window.c	1047;"	d	file:
+WINDOW_DOCKED_BOTTOM	common.h	/^        WINDOW_DOCKED_BOTTOM,$/;"	e	enum:__anon10
+WINDOW_DOCKED_TOP	common.h	/^        WINDOW_DOCKED_TOP,$/;"	e	enum:__anon10
+WINDOW_UNDOCKED	common.h	/^        WINDOW_UNDOCKED = 0,$/;"	e	enum:__anon10
+WORDFREQS	wordfreq.c	45;"	d	file:
+WordFreq	wordfreq.c	/^} WordFreq;$/;"	t	typeref:struct:__anon15	file:
+_	libegg/eggtrayicon.c	29;"	d	file:
+_EggTrayIcon	libegg/eggtrayicon.h	/^struct _EggTrayIcon$/;"	s
+_EggTrayIconClass	libegg/eggtrayicon.h	/^struct _EggTrayIconClass$/;"	s
+__EGG_TRAY_ICON_H__	libegg/eggtrayicon.h	22;"	d
+active	keys.h	/^        char active;$/;"	m	struct:__anon12
+active	keys.h	/^        int slaved, len, max_len, x, y, width, height, active, x_range, y_range,$/;"	m	struct:__anon13
+add_key	keywidget.c	/^static Key *add_key(KeyWidget *key_widget, int keysym, const char *string,$/;"	f	file:
+alt_mask	keyevent.c	/^static int alt_mask, num_lock_mask, meta_mask;$/;"	v	file:
+alt_menu_activate	cellwidget.c	/^static void alt_menu_activate(GtkWidget *widget, int *alt)$/;"	f	file:
+alt_menu_alts	cellwidget.c	/^static int menu_cell, alt_menu_alts[ALTERNATES];$/;"	v	file:
+alt_menu_change_case	cellwidget.c	/^static void alt_menu_change_case(void)$/;"	f	file:
+alt_menu_delete	cellwidget.c	/^static void alt_menu_delete(void)$/;"	f	file:
+alt_menu_selection_done	cellwidget.c	/^static void alt_menu_selection_done(GtkWidget *widget)$/;"	f	file:
+alt_menu_show_ink	cellwidget.c	/^static void alt_menu_show_ink(void)$/;"	f	file:
+alt_ratings	cellwidget.c	/^        char flags, alt_ratings[ALTERNATES];$/;"	m	struct:Cell	file:
+alt_used	cellwidget.c	/^        int alt_used[ALTERNATES];$/;"	m	struct:Cell	file:
+alts	cellwidget.c	/^        Sample sample, *alts[ALTERNATES];$/;"	m	struct:Cell	file:
+angle	recognize.h	/^        ANGLE angle;$/;"	m	struct:__anon1
+average	recognize.h	/^        int range, ignore_zeros, scale, average, max;$/;"	m	struct:__anon4
+bad_keycodes_read	keyevent.c	/^void bad_keycodes_read(void)$/;"	f
+bad_keycodes_write	keyevent.c	/^void bad_keycodes_write(void)$/;"	f
+block_combo_to_unicode	window.c	/^static int block_combo_to_unicode(int block)$/;"	f	file:
+block_unicode_to_combo	window.c	/^static int block_unicode_to_combo(int block)$/;"	f	file:
+blocks_combo	window.c	/^                 *bottom_box, *blocks_combo, *cell_widget,$/;"	v	file:
+blocks_combo_changed	window.c	/^static void blocks_combo_changed(void)$/;"	f	file:
+blocks_sync	window.c	/^void blocks_sync(void)$/;"	f
+bottom_box	window.c	/^                 *bottom_box, *blocks_combo, *cell_widget,$/;"	v	file:
+buffer_button	window.c	/^                 *clear_button, *train_button, *buffer_button;$/;"	v	file:
+buffer_button_pressed	window.c	/^static void buffer_button_pressed(void)$/;"	f	file:
+buffer_menu_deactivate	cellwidget.c	/^static void buffer_menu_deactivate(GtkMenuShell *shell, GtkWidget *button)$/;"	f	file:
+buffer_menu_item_activate	cellwidget.c	/^static void buffer_menu_item_activate(GtkWidget *widget, gunichar *history)$/;"	f	file:
+buffer_menu_item_destroy	cellwidget.c	/^static void buffer_menu_item_destroy(GtkWidget *widget, gchar *string)$/;"	f	file:
+buffer_menu_position_func	cellwidget.c	/^static void buffer_menu_position_func(GtkMenu *menu, gint *x, gint *y,$/;"	f	file:
+button_press_event	cellwidget.c	/^static gboolean button_press_event(GtkWidget *widget, GdkEventButton *event)$/;"	f	file:
+button_press_event	statusicon.c	/^static gboolean button_press_event(GtkWidget *widget, GdkEventButton *event)$/;"	f	file:
+button_release_event	cellwidget.c	/^static gboolean button_release_event(GtkWidget *widget, GdkEventButton *event)$/;"	f	file:
+button_set_image_xpm	window.c	/^static void button_set_image_xpm(GtkWidget *button, char **xpm)$/;"	f	file:
+cairo	cellwidget.c	/^static cairo_t *cairo = NULL;$/;"	v	file:
+cairo	keys.h	/^        cairo_t *cairo;$/;"	m	struct:__anon13
+cairo_pattern_add_gdk_color_stop	common.h	/^static inline void cairo_pattern_add_gdk_color_stop(cairo_pattern_t *pattern,$/;"	f
+cairo_set_source_gdk_color	common.h	/^static inline void cairo_set_source_gdk_color(cairo_t *cairo,$/;"	f
+catch_signals	main.c	/^static int catch_signals[] = {$/;"	v	file:
+catch_sigterm	main.c	/^static void catch_sigterm(int sig)$/;"	f	file:
+cell_cols	cellwidget.c	/^static int cell_cols, cell_rows, cell_row_view = 0, current_cell = -1, old_cc,$/;"	v	file:
+cell_cols_pref	cellwidget.c	/^int cell_width = 500, cell_height = 500, cell_cols_pref = 1, cell_rows_pref = 1,$/;"	v
+cell_cols_saved	cellwidget.c	/^           cell_cols_saved, cell_rows_saved, cell_row_view_saved,$/;"	v	file:
+cell_coords	cellwidget.c	/^static void cell_coords(int cell, int *px, int *py)$/;"	f	file:
+cell_height	cellwidget.c	/^int cell_width = 500, cell_height = 500, cell_cols_pref = 1, cell_rows_pref = 1,$/;"	v
+cell_height_spin	options.c	/^static GtkWidget *options_dialog = NULL, *cell_width_spin, *cell_height_spin,$/;"	v	file:
+cell_height_value_changed	options.c	/^static void cell_height_value_changed(void)$/;"	f	file:
+cell_offscreen	cellwidget.c	/^static int cell_offscreen(int cell)$/;"	f	file:
+cell_row_view	cellwidget.c	/^static int cell_cols, cell_rows, cell_row_view = 0, current_cell = -1, old_cc,$/;"	v	file:
+cell_row_view_saved	cellwidget.c	/^           cell_cols_saved, cell_rows_saved, cell_row_view_saved,$/;"	v	file:
+cell_rows	cellwidget.c	/^static int cell_cols, cell_rows, cell_row_view = 0, current_cell = -1, old_cc,$/;"	v	file:
+cell_rows_pref	cellwidget.c	/^int cell_width = 500, cell_height = 500, cell_cols_pref = 1, cell_rows_pref = 1,$/;"	v
+cell_rows_saved	cellwidget.c	/^           cell_cols_saved, cell_rows_saved, cell_row_view_saved,$/;"	v	file:
+cell_widget	window.c	/^                 *bottom_box, *blocks_combo, *cell_widget,$/;"	v	file:
+cell_widget_cleanup	cellwidget.c	/^void cell_widget_cleanup(void)$/;"	f
+cell_widget_clear	cellwidget.c	/^void cell_widget_clear(void)$/;"	f
+cell_widget_enable_xinput	cellwidget.c	/^void cell_widget_enable_xinput(int on)$/;"	f
+cell_widget_get_height	cellwidget.c	/^int cell_widget_get_height(void)$/;"	f
+cell_widget_insert	cellwidget.c	/^int cell_widget_insert(void)$/;"	f
+cell_widget_new	cellwidget.c	/^GtkWidget *cell_widget_new(void)$/;"	f
+cell_widget_pack	cellwidget.c	/^void cell_widget_pack(void)$/;"	f
+cell_widget_render	cellwidget.c	/^void cell_widget_render(void)$/;"	f
+cell_widget_scrollbar_width	cellwidget.c	/^int cell_widget_scrollbar_width(void)$/;"	f
+cell_widget_set_cursor	cellwidget.c	/^void cell_widget_set_cursor(int recreate)$/;"	f
+cell_widget_show_buffer	cellwidget.c	/^void cell_widget_show_buffer(GtkWidget *button)$/;"	f
+cell_widget_train	cellwidget.c	/^void cell_widget_train(void)$/;"	f
+cell_widget_update_colors	cellwidget.c	/^int cell_widget_update_colors(void)$/;"	f
+cell_widget_word	cellwidget.c	/^const char *cell_widget_word(void)$/;"	f
+cell_width	cellwidget.c	/^int cell_width = 500, cell_height = 500, cell_cols_pref = 1, cell_rows_pref = 1,$/;"	v
+cell_width_spin	options.c	/^static GtkWidget *options_dialog = NULL, *cell_width_spin, *cell_height_spin,$/;"	v	file:
+cell_width_value_changed	options.c	/^static void cell_width_value_changed(void)$/;"	f	file:
+cells	cellwidget.c	/^static Cell *cells = NULL, *cells_saved = NULL;$/;"	v	file:
+cells_saved	cellwidget.c	/^static Cell *cells = NULL, *cells_saved = NULL;$/;"	v	file:
+center	recognize.h	/^        Vec2 center;$/;"	m	struct:__anon2
+center	recognize.h	/^        Vec2 center;$/;"	m	struct:__anon6
+center_samples	recognize.c	/^void center_samples(Vec2 *ac_to_bc, Sample *a, Sample *b)$/;"	f
+ch	cellwidget.c	/^        gunichar ch;$/;"	m	struct:Cell	file:
+ch	recognize.h	/^        gunichar ch;$/;"	m	struct:__anon6
+channel	main.c	/^static GIOChannel *channel;$/;"	v	file:
+char_disabled	recognize.c	/^int char_disabled(gunichar ch)$/;"	f
+char_trained	recognize.c	/^int char_trained(gunichar ch)$/;"	f
+characters	cellwidget.c	/^int corrections = 0, rewrites = 0, characters = 0, inputs = 0;$/;"	v
+check_button_new	options.c	/^static GtkWidget *check_button_new(const char *label, int *variable, int repack)$/;"	f	file:
+check_button_toggled	options.c	/^static void check_button_toggled(GtkToggleButton *button, int *value)$/;"	f	file:
+check_button_toggled_repack	options.c	/^static void check_button_toggled_repack(GtkToggleButton *button, int *value)$/;"	f	file:
+check_cell	cellwidget.c	/^static void check_cell(double x, double y, GdkDevice *device)$/;"	f	file:
+check_clear	cellwidget.c	/^static int check_clear(void)$/;"	f	file:
+check_color_range	main.c	/^static int check_color_range(int value)$/;"	f	file:
+cleanup	main.c	/^void cleanup(void)$/;"	f
+cleanup_usable	keyevent.c	/^static void cleanup_usable(void)$/;"	f	file:
+clear_button	window.c	/^                 *clear_button, *train_button, *buffer_button;$/;"	v	file:
+clear_cell	cellwidget.c	/^static void clear_cell(int i)$/;"	f	file:
+clear_sample	recognize.c	/^void clear_sample(Sample *sample)$/;"	f
+clear_stroke	stroke.c	/^void clear_stroke(Stroke *stroke)$/;"	f
+close_dialog	options.c	/^static void close_dialog(void)$/;"	f	file:
+col	options.c	/^int col=1, keyboard=FALSE;$/;"	v
+color_active	cellwidget.c	/^static GdkColor color_active, color_inactive, color_ink, color_select;$/;"	v	file:
+color_bg	cellwidget.c	/^static GdkColor color_bg, color_bg_dark;$/;"	v	file:
+color_bg	keywidget.c	/^static GdkColor color_text, color_bg, color_keys_dark, color_keys,$/;"	v	file:
+color_bg_dark	cellwidget.c	/^static GdkColor color_bg, color_bg_dark;$/;"	v	file:
+color_inactive	cellwidget.c	/^static GdkColor color_active, color_inactive, color_ink, color_select;$/;"	v	file:
+color_ink	cellwidget.c	/^static GdkColor color_active, color_inactive, color_ink, color_select;$/;"	v	file:
+color_keys	keywidget.c	/^static GdkColor color_text, color_bg, color_keys_dark, color_keys,$/;"	v	file:
+color_keys_dark	keywidget.c	/^static GdkColor color_text, color_bg, color_keys_dark, color_keys,$/;"	v	file:
+color_keys_on	keywidget.c	/^                color_keys_on;$/;"	v	file:
+color_select	cellwidget.c	/^static GdkColor color_active, color_inactive, color_ink, color_select;$/;"	v	file:
+color_set	options.c	/^static void color_set(GtkColorButton *button, GdkColor *color)$/;"	f	file:
+color_sync	options.c	/^static void color_sync(GdkColor *color)$/;"	f	file:
+color_table	options.c	/^                 *color_table;$/;"	v	file:
+color_text	keywidget.c	/^static GdkColor color_text, color_bg, color_keys_dark, color_keys,$/;"	v	file:
+command_line_opts	main.c	/^static GOptionEntry command_line_opts[] = {$/;"	v	file:
+configure_event	cellwidget.c	/^static gboolean configure_event(void)$/;"	f	file:
+configure_event	keywidget.c	/^static gboolean configure_event(GtkWidget *widget, GdkEventConfigure *event,$/;"	f	file:
+configure_keys	cellwidget.c	/^static void configure_keys(void)$/;"	f	file:
+context_menu_position	cellwidget.c	/^static void context_menu_position(GtkMenu *menu, gint *x, gint *y,$/;"	f	file:
+copy_sample	recognize.c	/^void copy_sample(Sample *dest, const Sample *src)$/;"	f
+corrections	cellwidget.c	/^int corrections = 0, rewrites = 0, characters = 0, inputs = 0;$/;"	v
+count	wordfreq.c	/^        int count;$/;"	m	struct:__anon15	file:
+create_blocks_combo	window.c	/^static GtkWidget *create_blocks_combo(void)$/;"	f	file:
+create_blocks_list	options.c	/^static GtkWidget *create_blocks_list(void)$/;"	f	file:
+create_color_table	options.c	/^static GtkWidget *create_color_table(void)$/;"	f	file:
+create_dialog	options.c	/^static void create_dialog(void)$/;"	f	file:
+create_user_dir	main.c	/^static void create_user_dir(void)$/;"	f	file:
+cross_out	cellwidget.c	/^           potential_insert = FALSE, potential_hold = FALSE, cross_out = FALSE,$/;"	v	file:
+current	recognize.c	/^static int current = 1;$/;"	v	file:
+current_cell	cellwidget.c	/^static int cell_cols, cell_rows, cell_row_view = 0, current_cell = -1, old_cc,$/;"	v	file:
+cursor_x	cellwidget.c	/^static double cursor_x, cursor_y;$/;"	v	file:
+cursor_y	cellwidget.c	/^static double cursor_x, cursor_y;$/;"	v	file:
+custom_active_color	cellwidget.c	/^GdkColor custom_active_color = RGB_TO_GDKCOLOR(255, 255, 255),$/;"	v
+custom_inactive_color	cellwidget.c	/^         custom_inactive_color = RGB_TO_GDKCOLOR(212, 222, 226),$/;"	v
+custom_ink_color	cellwidget.c	/^         custom_ink_color = RGB_TO_GDKCOLOR(0, 0, 0),$/;"	v
+custom_key_color	keywidget.c	/^GdkColor custom_key_color = RGB_TO_GDKCOLOR(103, 107, 120);$/;"	v
+custom_select_color	cellwidget.c	/^         custom_select_color = RGB_TO_GDKCOLOR(204, 0, 0);$/;"	v
+delete_cell	cellwidget.c	/^static void delete_cell(int cell)$/;"	f	file:
+demote_sample	recognize.c	/^void demote_sample(Sample *sample)$/;"	f
+device_event	cellwidget.c	/^void device_event(int fd)$/;"	f
+dirty_all	cellwidget.c	/^static void dirty_all(void)$/;"	f	file:
+dirty_cell	cellwidget.c	/^static void dirty_cell(int cell)$/;"	f	file:
+disqualified	recognize.h	/^        unsigned char enabled, disqualified, processed;$/;"	m	struct:__anon6
+distance	recognize.h	/^        float distance, penalty;$/;"	m	struct:__anon6
+distance	recognize.h	/^        float distance;$/;"	m	struct:__anon2
+docked_move_resize	window.c	/^static void docked_move_resize(void)$/;"	f	file:
+draw	cellwidget.c	/^static void draw(double x, double y)$/;"	f	file:
+draw_stroke	stroke.c	/^void draw_stroke(Stroke **ps, int x, int y)$/;"	f
+drawing	cellwidget.c	/^           drawing = FALSE, inserting = FALSE, eraser = FALSE, invalid = FALSE,$/;"	v	file:
+drawing_area	cellwidget.c	/^static GtkWidget *drawing_area = NULL, *training_menu, *scrollbar;$/;"	v	file:
+drawing_area	keys.h	/^        GtkWidget *drawing_area;$/;"	m	struct:__anon13
+dump_stroke	stroke.c	/^void dump_stroke(Stroke *stroke)$/;"	f
+egg_tray_icon_add	libegg/eggtrayicon.c	/^egg_tray_icon_add (GtkContainer *container, GtkWidget *widget)$/;"	f	file:
+egg_tray_icon_cancel_message	libegg/eggtrayicon.c	/^egg_tray_icon_cancel_message (EggTrayIcon *icon,$/;"	f
+egg_tray_icon_class_init	libegg/eggtrayicon.c	/^egg_tray_icon_class_init (EggTrayIconClass *klass)$/;"	f	file:
+egg_tray_icon_get_orientation	libegg/eggtrayicon.c	/^egg_tray_icon_get_orientation (EggTrayIcon *icon)$/;"	f
+egg_tray_icon_get_orientation_property	libegg/eggtrayicon.c	/^egg_tray_icon_get_orientation_property (EggTrayIcon *icon)$/;"	f	file:
+egg_tray_icon_get_property	libegg/eggtrayicon.c	/^egg_tray_icon_get_property (GObject    *object,$/;"	f	file:
+egg_tray_icon_get_type	libegg/eggtrayicon.c	/^egg_tray_icon_get_type (void)$/;"	f
+egg_tray_icon_get_x_display	libegg/eggtrayicon.c	/^egg_tray_icon_get_x_display(EggTrayIcon *icon)$/;"	f	file:
+egg_tray_icon_init	libegg/eggtrayicon.c	/^egg_tray_icon_init (EggTrayIcon *icon)$/;"	f	file:
+egg_tray_icon_manager_filter	libegg/eggtrayicon.c	/^egg_tray_icon_manager_filter (GdkXEvent *xevent, GdkEvent *event, gpointer user_data)$/;"	f	file:
+egg_tray_icon_manager_window_destroyed	libegg/eggtrayicon.c	/^egg_tray_icon_manager_window_destroyed (EggTrayIcon *icon)$/;"	f	file:
+egg_tray_icon_new	libegg/eggtrayicon.c	/^egg_tray_icon_new (const gchar *name)$/;"	f
+egg_tray_icon_new_for_screen	libegg/eggtrayicon.c	/^egg_tray_icon_new_for_screen (GdkScreen *screen, const char *name)$/;"	f
+egg_tray_icon_realize	libegg/eggtrayicon.c	/^egg_tray_icon_realize (GtkWidget *widget)$/;"	f	file:
+egg_tray_icon_send_dock_request	libegg/eggtrayicon.c	/^egg_tray_icon_send_dock_request (EggTrayIcon *icon)$/;"	f	file:
+egg_tray_icon_send_manager_message	libegg/eggtrayicon.c	/^egg_tray_icon_send_manager_message (EggTrayIcon *icon,$/;"	f	file:
+egg_tray_icon_send_message	libegg/eggtrayicon.c	/^egg_tray_icon_send_message (EggTrayIcon *icon,$/;"	f
+egg_tray_icon_unrealize	libegg/eggtrayicon.c	/^egg_tray_icon_unrealize (GtkWidget *widget)$/;"	f	file:
+egg_tray_icon_update_manager_window	libegg/eggtrayicon.c	/^egg_tray_icon_update_manager_window (EggTrayIcon *icon,$/;"	f	file:
+enable_cairo	cellwidget.c	/^    enable_cairo = TRUE, training = FALSE, train_on_input = TRUE,$/;"	v
+enabled	common.h	/^        short enabled;$/;"	m	struct:__anon9
+enabled	recognize.h	/^        unsigned char enabled, disqualified, processed;$/;"	m	struct:__anon6
+end	common.h	/^        const int start, end;$/;"	m	struct:__anon9
+engine_average	averages.c	/^void engine_average(void)$/;"	f
+engine_prep	preprocess.c	/^void engine_prep(void)$/;"	f
+engine_rating	recognize.c	/^static int engine_rating(const Sample *sample, int j)$/;"	f	file:
+engine_wordfreq	wordfreq.c	/^void engine_wordfreq(void)$/;"	f
+engines	recognize.c	/^Engine engines[] = {$/;"	v
+enter_notify_event	cellwidget.c	/^static gboolean enter_notify_event(GtkWidget *widget, GdkEventCrossing *event)$/;"	f	file:
+erase_cell	cellwidget.c	/^static void erase_cell(int cell)$/;"	f	file:
+eraser	cellwidget.c	/^           drawing = FALSE, inserting = FALSE, eraser = FALSE, invalid = FALSE,$/;"	v	file:
+event_end	cellwidget.c	/^struct input_event event_key_start,event_mouse_start, event_end;$/;"	v	typeref:struct:
+event_key_start	cellwidget.c	/^struct input_event event_key_start,event_mouse_start, event_end;$/;"	v	typeref:struct:input_event
+event_mouse_start	cellwidget.c	/^struct input_event event_key_start,event_mouse_start, event_end;$/;"	v	typeref:struct:
+expose_event	cellwidget.c	/^static gboolean expose_event(GtkWidget *widget, GdkEventExpose *event)$/;"	f	file:
+expose_event	keywidget.c	/^static gboolean expose_event(GtkWidget *widget, GdkEventExpose *event,$/;"	f	file:
+finish_cell	cellwidget.c	/^static void finish_cell(int cell)$/;"	f	file:
+finish_timeout	cellwidget.c	/^static gboolean finish_timeout(void)$/;"	f	file:
+flags	cellwidget.c	/^        char flags, alt_ratings[ALTERNATES];$/;"	m	struct:Cell	file:
+flags	keys.h	/^        short flags;$/;"	m	struct:__anon12
+force_profile	main.c	/^            *force_profile = NULL, *profile_tmp = NULL;$/;"	v	file:
+force_read_only	main.c	/^static int force_read_only;$/;"	v	file:
+free_cells	cellwidget.c	/^static void free_cells(void)$/;"	f	file:
+func	recognize.h	/^        void (*func)(void);$/;"	m	struct:__anon4
+gdk_color_to_hsl	main.c	/^void gdk_color_to_hsl(const GdkColor *src,$/;"	f
+gdk_colors_equal	common.h	/^static inline int gdk_colors_equal(GdkColor *a, GdkColor *b)$/;"	f
+gluable_end	recognize.h	/^                      gluable_start[STROKES_MAX], gluable_end[STROKES_MAX];$/;"	m	struct:__anon2
+gluable_start	recognize.h	/^                      gluable_start[STROKES_MAX], gluable_end[STROKES_MAX];$/;"	m	struct:__anon2
+glue	recognize.h	/^                      glue[STROKES_MAX];$/;"	m	struct:__anon5
+glue_stroke	stroke.c	/^void glue_stroke(Stroke **pa, const Stroke *b, int reverse)$/;"	f
+greedy_map	preprocess.c	/^static float greedy_map(Sample *larger, Sample *smaller, Transform *ptfm,$/;"	f	file:
+height	keys.h	/^        int slaved, len, max_len, x, y, width, height, active, x_range, y_range,$/;"	m	struct:__anon13
+height	keys.h	/^        int x, y, width, height, rotate;$/;"	m	struct:__anon12
+height	options.c	/^int width=500, height=500;$/;"	v
+help_clicked	options.c	/^static void help_clicked(void)$/;"	f	file:
+highlight_gdk_color	main.c	/^void highlight_gdk_color(const GdkColor *base, GdkColor *out, double value)$/;"	f
+history	cellwidget.c	/^static gunichar *history[HISTORY_MAX];$/;"	v	file:
+history_valid	window.c	/^           window_shown = TRUE, history_valid = FALSE, keys_on = FALSE;$/;"	v	file:
+hold_timeout	cellwidget.c	/^static gboolean hold_timeout(void)$/;"	f	file:
+hook_signals	main.c	/^static void hook_signals(void)$/;"	f	file:
+hsl_to_gdk_color	main.c	/^void hsl_to_gdk_color(GdkColor *src, double hue, double sat, double lit)$/;"	f
+ignore_fifo	main.c	/^static int ignore_fifo;$/;"	v	file:
+ignore_stroke_dir	options.c	/^int ignore_stroke_dir, ignore_stroke_num;$/;"	v
+ignore_stroke_dir	preprocess.c	/^int ignore_stroke_dir = TRUE, ignore_stroke_num = TRUE, prep_examined;$/;"	v
+ignore_stroke_num	options.c	/^int ignore_stroke_dir, ignore_stroke_num;$/;"	v
+ignore_stroke_num	preprocess.c	/^int ignore_stroke_dir = TRUE, ignore_stroke_num = TRUE, prep_examined;$/;"	v
+ignore_zeros	recognize.h	/^        int range, ignore_zeros, scale, average, max;$/;"	m	struct:__anon4
+ink_color_set	options.c	/^static void ink_color_set(void)$/;"	f	file:
+input	recognize.c	/^Sample *input = NULL;$/;"	v
+inputs	cellwidget.c	/^int corrections = 0, rewrites = 0, characters = 0, inputs = 0;$/;"	v
+insert_button	window.c	/^                 *setup_button, *keys_button, *insert_button,$/;"	v	file:
+insert_button_clicked	window.c	/^void insert_button_clicked(void)$/;"	f
+insert_cell	cellwidget.c	/^static void insert_cell(int cell)$/;"	f	file:
+insert_sample	recognize.c	/^static void insert_sample(const Sample *new_sample, int force_overwrite)$/;"	f	file:
+inserting	cellwidget.c	/^           drawing = FALSE, inserting = FALSE, eraser = FALSE, invalid = FALSE,$/;"	v	file:
+invalid	cellwidget.c	/^           drawing = FALSE, inserting = FALSE, eraser = FALSE, invalid = FALSE,$/;"	v	file:
+io_channel	singleinstance.c	/^static GIOChannel *io_channel;$/;"	v	file:
+is_clear	cellwidget.c	/^           show_keys = TRUE, is_clear = TRUE, keys_dirty = FALSE;$/;"	v	file:
+is_clear_timeout	cellwidget.c	/^static gboolean is_clear_timeout(void)$/;"	f	file:
+is_shifted	keywidget.c	/^static int is_shifted(const Key *key)$/;"	f	file:
+is_space	main.c	/^static int is_space(int ch)$/;"	f	file:
+ke_caps_lock	keyevent.c	/^static KeyEvent ke_shift, ke_enter, ke_num_lock, ke_caps_lock;$/;"	v	file:
+ke_enter	keyevent.c	/^static KeyEvent ke_shift, ke_enter, ke_num_lock, ke_caps_lock;$/;"	v	file:
+ke_num_lock	keyevent.c	/^static KeyEvent ke_shift, ke_enter, ke_num_lock, ke_caps_lock;$/;"	v	file:
+ke_shift	keyevent.c	/^static KeyEvent ke_shift, ke_enter, ke_num_lock, ke_caps_lock;$/;"	v	file:
+key_caps_locked	keyevent.c	/^    key_shifted = 0, key_num_locked = FALSE, key_caps_locked = FALSE,$/;"	v
+key_codes	keyevent.c	/^static int key_min, key_max, key_offset, key_codes;$/;"	v	file:
+key_coord	keywidget.c	/^static void key_coord(KeyWidget *key_widget, int x, int y,$/;"	f	file:
+key_coords	keywidget.c	/^static void key_coords(KeyWidget *key_widget, Key *key, int *x, int *y,$/;"	f	file:
+key_disable_overwrite	keyevent.c	/^    key_disable_overwrite = FALSE;$/;"	v
+key_event	keys.h	/^        KeyEvent key_event;$/;"	m	struct:__anon12
+key_event_allocate	keyevent.c	/^static void key_event_allocate(KeyEvent *key_event, unsigned int keysym)$/;"	f	file:
+key_event_cleanup	keyevent.c	/^void key_event_cleanup(void)$/;"	f
+key_event_free	keyevent.c	/^void key_event_free(KeyEvent *key_event)$/;"	f
+key_event_init	keyevent.c	/^int key_event_init(void)$/;"	f
+key_event_new	keyevent.c	/^void key_event_new(KeyEvent *key_event, unsigned int keysym)$/;"	f
+key_event_press	keyevent.c	/^void key_event_press(KeyEvent *key_event)$/;"	f
+key_event_press_force	keyevent.c	/^void key_event_press_force(KeyEvent *key_event)$/;"	f
+key_event_release	keyevent.c	/^void key_event_release(KeyEvent *key_event)$/;"	f
+key_event_release_force	keyevent.c	/^void key_event_release_force(KeyEvent *key_event)$/;"	f
+key_event_send_char	keyevent.c	/^void key_event_send_char(int unichar)$/;"	f
+key_event_send_enter	keyevent.c	/^void key_event_send_enter()$/;"	f
+key_event_update_mappings	keyevent.c	/^void key_event_update_mappings(void)$/;"	f
+key_max	keyevent.c	/^static int key_min, key_max, key_offset, key_codes;$/;"	v	file:
+key_min	keyevent.c	/^static int key_min, key_max, key_offset, key_codes;$/;"	v	file:
+key_num_locked	keyevent.c	/^    key_shifted = 0, key_num_locked = FALSE, key_caps_locked = FALSE,$/;"	v
+key_offset	keyevent.c	/^static int key_min, key_max, key_offset, key_codes;$/;"	v	file:
+key_overwrites	keyevent.c	/^int key_overwrites = 0, key_recycles = 0,$/;"	v
+key_recycles	keyevent.c	/^int key_overwrites = 0, key_recycles = 0,$/;"	v
+key_shifted	keyevent.c	/^    key_shifted = 0, key_num_locked = FALSE, key_caps_locked = FALSE,$/;"	v
+key_widget	cellwidget.c	/^static KeyWidget *key_widget;$/;"	v	file:
+key_widget	window.c	/^static KeyWidget *key_widget;$/;"	v	file:
+key_widget_button_press	keywidget.c	/^gboolean key_widget_button_press(GtkWidget *widget, GdkEventButton *event,$/;"	f
+key_widget_button_release	keywidget.c	/^gboolean key_widget_button_release(GtkWidget *widget, GdkEventButton *event,$/;"	f
+key_widget_cleanup	keywidget.c	/^void key_widget_cleanup(KeyWidget *key_widget)$/;"	f
+key_widget_configure	keywidget.c	/^void key_widget_configure(KeyWidget *key_widget, int x, int y,$/;"	f
+key_widget_new	keywidget.c	/^static KeyWidget *key_widget_new(GtkWidget *drawing_area, int keys)$/;"	f	file:
+key_widget_new_full	keywidget.c	/^KeyWidget *key_widget_new_full(void)$/;"	f
+key_widget_new_small	keywidget.c	/^KeyWidget *key_widget_new_small(GtkWidget *drawing_area)$/;"	f
+key_widget_render	keywidget.c	/^void key_widget_render(KeyWidget *key_widget)$/;"	f
+key_widget_resize	keywidget.c	/^void key_widget_resize(KeyWidget *key_widget)$/;"	f
+key_widget_update_colors	keywidget.c	/^int key_widget_update_colors(void)$/;"	f
+keyboard	options.c	/^int col=1, keyboard=FALSE;$/;"	v
+keyboard_enabled	cellwidget.c	/^    right_to_left = FALSE, keyboard_enabled = 0, xinput_enabled = FALSE;$/;"	v
+keyboard_only	main.c	/^int profile_read_only, keyboard_only = FALSE;$/;"	v
+keyboard_size	keywidget.c	/^int keyboard_size = 640;$/;"	v
+keycode	keys.h	/^        unsigned char keycode, shift;$/;"	m	struct:__anon11
+keys	keys.h	/^        Key keys[];$/;"	m	struct:__anon13
+keys_button	window.c	/^                 *setup_button, *keys_button, *insert_button,$/;"	v	file:
+keys_button_toggled	window.c	/^static void keys_button_toggled(void)$/;"	f	file:
+keys_dirty	cellwidget.c	/^           show_keys = TRUE, is_clear = TRUE, keys_dirty = FALSE;$/;"	v	file:
+keys_on	window.c	/^           window_shown = TRUE, history_valid = FALSE, keys_on = FALSE;$/;"	v	file:
+keysym	keys.h	/^        unsigned int keysym, keysym_shift;$/;"	m	struct:__anon12
+keysym	keys.h	/^        unsigned int keysym;$/;"	m	struct:__anon11
+keysym_shift	keys.h	/^        unsigned int keysym, keysym_shift;$/;"	m	struct:__anon12
+keysyms	keyevent.c	/^static KeySym *keysyms = NULL;$/;"	v	file:
+label_new_markup	options.c	/^static GtkWidget *label_new_markup(const char *s)$/;"	f	file:
+len	keys.h	/^        int slaved, len, max_len, x, y, width, height, active, x_range, y_range,$/;"	m	struct:__anon13
+len	recognize.h	/^        int len, size, spread;$/;"	m	struct:__anon2
+len	recognize.h	/^        unsigned short len;$/;"	m	struct:__anon6
+load_wordfreq	wordfreq.c	/^void load_wordfreq(void)$/;"	f
+log_errno	main.c	/^void log_errno(const char *string)$/;"	f
+log_file	main.c	/^static FILE *log_file = NULL;$/;"	v	file:
+log_filename	main.c	/^static char *log_filename = NULL;$/;"	v	file:
+log_func	main.c	/^void log_func(const gchar *domain, GLogLevelFlags level, const gchar *message)$/;"	f
+log_level	main.c	/^int profile_line, log_level = 4;$/;"	v
+log_print	main.c	/^void log_print(const char *format, ...)$/;"	f
+main	main.c	/^int main(int argc, char *argv[])$/;"	f
+make_transparent	libegg/eggtrayicon.c	/^make_transparent (GtkWidget *widget, gpointer user_data)$/;"	f	file:
+make_transparent_again	libegg/eggtrayicon.c	/^make_transparent_again (GtkWidget *widget, GtkStyle *previous_style,$/;"	f	file:
+manager_atom	libegg/eggtrayicon.h	/^  Atom manager_atom;$/;"	m	struct:_EggTrayIcon
+manager_window	libegg/eggtrayicon.h	/^  Window manager_window;$/;"	m	struct:_EggTrayIcon
+max	recognize.h	/^        int range, ignore_zeros, scale, average, max;$/;"	m	struct:__anon4
+max_len	keys.h	/^        int slaved, len, max_len, x, y, width, height, active, x_range, y_range,$/;"	m	struct:__anon13
+max_x	recognize.h	/^        signed char min_x, max_x, min_y, max_y;$/;"	m	struct:__anon2
+max_y	recognize.h	/^        signed char min_x, max_x, min_y, max_y;$/;"	m	struct:__anon2
+measure_angle	averages.c	/^static float measure_angle(const Stroke *a, int i, const Stroke *b, int j)$/;"	f	file:
+measure_distance	averages.c	/^float measure_distance(const Stroke *a, int i, const Stroke *b, int j,$/;"	f
+measure_partial	preprocess.c	/^static float measure_partial(Stroke *as, Stroke *b, Vec2 *offset, float scale_b)$/;"	f	file:
+measure_strokes	averages.c	/^float measure_strokes(Stroke *a, Stroke *b, MeasureFunc func,$/;"	f
+menu_cell	cellwidget.c	/^static int menu_cell, alt_menu_alts[ALTERNATES];$/;"	v	file:
+meta_mask	keyevent.c	/^static int alt_mask, num_lock_mask, meta_mask;$/;"	v	file:
+min_height	keys.h	/^            min_height;$/;"	m	struct:__anon13
+min_x	recognize.h	/^        signed char min_x, max_x, min_y, max_y;$/;"	m	struct:__anon2
+min_y	recognize.h	/^        signed char min_x, max_x, min_y, max_y;$/;"	m	struct:__anon2
+modmap	keyevent.c	/^static XModifierKeymap *modmap = NULL;$/;"	v	file:
+motion_notify_event	cellwidget.c	/^static gboolean motion_notify_event(GtkWidget *widget, GdkEventMotion *event)$/;"	f	file:
+move_file	main.c	/^static int move_file(char *from, char *to)$/;"	f	file:
+move_mouse	cellwidget.c	/^void move_mouse(){$/;"	f
+name	common.h	/^        const char *name;$/;"	m	struct:__anon9
+name	main.c	/^        const char *name;$/;"	m	struct:__anon7	file:
+name	recognize.h	/^        const char *name;$/;"	m	struct:__anon4
+next	recognize.c	/^        struct SampleLink *prev, *next;$/;"	m	struct:SampleLink	typeref:struct:SampleLink::	file:
+no_latin_alpha	recognize.c	/^int samples_max = 5, no_latin_alpha = FALSE;$/;"	v
+notify_event	keywidget.c	/^static gboolean notify_event(GtkWidget *widget, GdkEventCrossing *event,$/;"	f	file:
+num_disqualified	averages.c	/^int num_disqualified;$/;"	v
+num_lock_mask	keyevent.c	/^static int alt_mask, num_lock_mask, meta_mask;$/;"	v	file:
+nva	main.c	/^char *nva(int *plen, const char *fmt, ...)$/;"	f
+nvav	main.c	/^char *nvav(int *plen, const char *fmt, va_list va)$/;"	f
+old_cc	cellwidget.c	/^static int cell_cols, cell_rows, cell_row_view = 0, current_cell = -1, old_cc,$/;"	v	file:
+on_dupe	singleinstance.c	/^static SingleInstanceFunc on_dupe;$/;"	v	file:
+on_fifo_input	singleinstance.c	/^static gboolean on_fifo_input(GIOChannel *src, GIOCondition cond, gpointer data)$/;"	f	file:
+options_dialog	options.c	/^static GtkWidget *options_dialog = NULL, *cell_width_spin, *cell_height_spin,$/;"	v	file:
+options_dialog_open	options.c	/^void options_dialog_open(void)$/;"	f
+options_sync	options.c	/^void options_sync(void)$/;"	f
+order	recognize.h	/^        unsigned char valid, order[STROKES_MAX], reverse[STROKES_MAX],$/;"	m	struct:__anon5
+orientation	libegg/eggtrayicon.h	/^  GtkOrientation orientation;$/;"	m	struct:_EggTrayIcon
+orientation_atom	libegg/eggtrayicon.h	/^  Atom orientation_atom;$/;"	m	struct:_EggTrayIcon
+pack_cells	cellwidget.c	/^static int pack_cells(int new_rows, int new_cols)$/;"	f	file:
+pad_cell	cellwidget.c	/^static void pad_cell(int cell)$/;"	f	file:
+pango	cellwidget.c	/^static PangoContext *pango = NULL;$/;"	v	file:
+pango	keys.h	/^        PangoContext *pango;$/;"	m	struct:__anon13
+pango_font_desc	cellwidget.c	/^static PangoFontDescription *pango_font_desc = NULL;$/;"	v	file:
+pango_font_desc	keys.h	/^        PangoFontDescription *pango_font_desc;$/;"	m	struct:__anon13
+parent_class	libegg/eggtrayicon.c	/^static GtkPlugClass *parent_class = NULL;$/;"	v	file:
+parent_class	libegg/eggtrayicon.h	/^  GtkPlugClass parent_class;$/;"	m	struct:_EggTrayIconClass
+parent_instance	libegg/eggtrayicon.h	/^  GtkPlug parent_instance;$/;"	m	struct:_EggTrayIcon
+path	singleinstance.c	/^static char *path;$/;"	v	file:
+penalty	recognize.h	/^        float distance, penalty;$/;"	m	struct:__anon6
+pixmap	cellwidget.c	/^static GdkPixmap *pixmap = NULL;$/;"	v	file:
+pixmap	keys.h	/^        GdkPixmap *pixmap;$/;"	m	struct:__anon13
+pixmap_gc	cellwidget.c	/^static GdkGC *pixmap_gc = NULL;$/;"	v	file:
+pixmap_gc	keys.h	/^        GdkGC *pixmap_gc;$/;"	m	struct:__anon13
+points	recognize.h	/^        Point points[];$/;"	m	struct:__anon2
+position_menu_libegg	statusicon.c	/^static void position_menu_libegg(GtkMenu *menu, int *x, int *y,$/;"	f	file:
+potential_hold	cellwidget.c	/^           potential_insert = FALSE, potential_hold = FALSE, cross_out = FALSE,$/;"	v	file:
+potential_insert	cellwidget.c	/^           potential_insert = FALSE, potential_hold = FALSE, cross_out = FALSE,$/;"	v	file:
+prep_examined	preprocess.c	/^int ignore_stroke_dir = TRUE, ignore_stroke_num = TRUE, prep_examined;$/;"	v
+prep_examined	recognize.c	/^int prep_examined;$/;"	v
+prep_sample	preprocess.c	/^static int prep_sample(Sample *sample)$/;"	f	file:
+press_keycode	keyevent.c	/^static void press_keycode(KeyCode k)$/;"	f	file:
+press_sticky_keys	keywidget.c	/^static void press_sticky_keys(KeyWidget *key_widget, int on)$/;"	f	file:
+pressed	keyevent.c	/^static char usable[256], pressed[256];$/;"	v	file:
+prev	recognize.c	/^        struct SampleLink *prev, *next;$/;"	m	struct:SampleLink	typeref:struct:SampleLink::SampleLink	file:
+print_window_xid	window.c	/^static void print_window_xid(GtkWidget *widget)$/;"	f	file:
+process_gluable	recognize.c	/^static void process_gluable(const Sample *sample, int stroke_num)$/;"	f	file:
+process_sample	recognize.c	/^void process_sample(Sample *sample)$/;"	f
+process_stroke	stroke.c	/^void process_stroke(Stroke *stroke)$/;"	f
+processed	recognize.h	/^        unsigned char enabled, disqualified, processed;$/;"	m	struct:__anon6
+processed	recognize.h	/^        unsigned char processed,$/;"	m	struct:__anon2
+profile_buf	main.c	/^static char profile_buf[4096], *profile_end = NULL, profile_swap,$/;"	v	file:
+profile_close	main.c	/^static int profile_close(void)$/;"	f	file:
+profile_cmds	main.c	/^} profile_cmds[] = {$/;"	v	typeref:struct:__anon7	file:
+profile_end	main.c	/^static char profile_buf[4096], *profile_end = NULL, profile_swap,$/;"	v	file:
+profile_line	main.c	/^int profile_line, log_level = 4;$/;"	v
+profile_open_channel	main.c	/^static int profile_open_channel(const char *type, const char *path)$/;"	f	file:
+profile_open_read	main.c	/^static int profile_open_read(void)$/;"	f	file:
+profile_open_write	main.c	/^static int profile_open_write(void)$/;"	f	file:
+profile_read	main.c	/^const char *profile_read(void)$/;"	f
+profile_read_next	main.c	/^int profile_read_next(void)$/;"	f
+profile_read_only	main.c	/^int profile_read_only, keyboard_only = FALSE;$/;"	v
+profile_swap	main.c	/^static char profile_buf[4096], *profile_end = NULL, profile_swap,$/;"	v	file:
+profile_sync_int	main.c	/^int profile_sync_int(int *var)$/;"	f
+profile_sync_short	main.c	/^int profile_sync_short(short *var)$/;"	f
+profile_tmp	main.c	/^            *force_profile = NULL, *profile_tmp = NULL;$/;"	v	file:
+profile_write	main.c	/^int profile_write(const char *str)$/;"	f
+promote_sample	recognize.c	/^void promote_sample(Sample *sample)$/;"	f
+range	recognize.h	/^        int range, ignore_zeros, scale, average, max;$/;"	m	struct:__anon4
+rating	recognize.h	/^        short rating, ratings[ENGINES];$/;"	m	struct:__anon6
+ratings	recognize.h	/^        short rating, ratings[ENGINES];$/;"	m	struct:__anon6
+reach	recognize.h	/^        float reach;$/;"	m	struct:__anon5
+read_func	main.c	/^        void (*read_func)(void);$/;"	m	struct:__anon7	file:
+recognize_init	recognize.c	/^void recognize_init(void)$/;"	f
+recognize_sample	recognize.c	/^void recognize_sample(Sample *sample, Sample **alts, int num_alts)$/;"	f
+recognize_sync	recognize.c	/^void recognize_sync(void)$/;"	f
+release_held_keys	keyevent.c	/^static void release_held_keys(void)$/;"	f	file:
+release_keycode	keyevent.c	/^static void release_keycode(KeyCode k)$/;"	f	file:
+render_cell	cellwidget.c	/^static void render_cell(int i)$/;"	f	file:
+render_dirty	cellwidget.c	/^static void render_dirty(void)$/;"	f	file:
+render_icon	keywidget.c	/^static void render_icon(cairo_t *cairo, double x, double y, double size,$/;"	f	file:
+render_key	keywidget.c	/^static void render_key(KeyWidget *key_widget, int n, int dirty)$/;"	f	file:
+render_point	cellwidget.c	/^static void render_point(Sample *sample, int cell, int stroke, Vec2 *offset)$/;"	f	file:
+render_sample	cellwidget.c	/^static void render_sample(Sample *sample, int cell)$/;"	f	file:
+render_segment	cellwidget.c	/^static void render_segment(Sample *sample, int cell, int stroke, int seg,$/;"	f	file:
+reset_keyboard	keyevent.c	/^static void reset_keyboard(void)$/;"	f	file:
+reverse	recognize.h	/^        unsigned char valid, order[STROKES_MAX], reverse[STROKES_MAX],$/;"	m	struct:__anon5
+reverse_copy_points	stroke.c	/^static void reverse_copy_points(Point *dest, const Point *src, int len)$/;"	f	file:
+rewrites	cellwidget.c	/^int corrections = 0, rewrites = 0, characters = 0, inputs = 0;$/;"	v
+right_to_left	cellwidget.c	/^    right_to_left = FALSE, keyboard_enabled = 0, xinput_enabled = FALSE;$/;"	v
+rotate	keys.h	/^        int x, y, width, height, rotate;$/;"	m	struct:__anon12
+roughs	recognize.h	/^        Stroke *strokes[STROKES_MAX], *roughs[STROKES_MAX];$/;"	m	struct:__anon6
+row_timeout	cellwidget.c	/^static gboolean row_timeout(void)$/;"	f	file:
+sample	cellwidget.c	/^        Sample sample, *alts[ALTERNATES];$/;"	m	struct:Cell	file:
+sample	recognize.c	/^        Sample sample;$/;"	m	struct:SampleLink	file:
+sample_average	averages.c	/^static void sample_average(Sample *sample)$/;"	f	file:
+sample_disqualified	recognize.c	/^int sample_disqualified(const Sample *sample)$/;"	f
+sample_new	recognize.c	/^static Sample *sample_new(void)$/;"	f	file:
+sample_rating	recognize.c	/^static void sample_rating(Sample *sample)$/;"	f	file:
+sample_read	recognize.c	/^void sample_read(void)$/;"	f
+sample_stroke	stroke.c	/^Stroke *sample_stroke(Stroke *out, Stroke *in, int points, int size)$/;"	f
+sample_strokes	stroke.c	/^void sample_strokes(Stroke *a, Stroke *b, Stroke **as, Stroke **bs)$/;"	f
+sample_valid	recognize.c	/^int sample_valid(const Sample *sample, int used)$/;"	f
+sample_write	recognize.c	/^static void sample_write(Sample *sample)$/;"	f	file:
+sampleiter_next	recognize.c	/^Sample *sampleiter_next(void)$/;"	f
+sampleiter_reset	recognize.c	/^void sampleiter_reset(void)$/;"	f
+samplelink_iter	recognize.c	/^static SampleLink *samplelink_root = NULL, *samplelink_iter = NULL;$/;"	v	file:
+samplelink_root	recognize.c	/^static SampleLink *samplelink_root = NULL, *samplelink_iter = NULL;$/;"	v	file:
+samples_loaded	recognize.c	/^int samples_loaded(void)$/;"	f
+samples_max	recognize.c	/^int samples_max = 5, no_latin_alpha = FALSE;$/;"	v
+samples_write	recognize.c	/^void samples_write(void)$/;"	f
+scale	recognize.h	/^        int range, ignore_zeros, scale, average, max;$/;"	m	struct:__anon4
+scale_gdk_color	main.c	/^void scale_gdk_color(const GdkColor *base, GdkColor *out, double value)$/;"	f
+screen_height	window.c	/^static int screen_width = -1, screen_height = -1,$/;"	v	file:
+screen_width	window.c	/^static int screen_width = -1, screen_height = -1,$/;"	v	file:
+scroll_event	cellwidget.c	/^static gboolean scroll_event(GtkWidget *widget, GdkEventScroll *event)$/;"	f	file:
+scrollbar	cellwidget.c	/^static GtkWidget *drawing_area = NULL, *training_menu, *scrollbar;$/;"	v	file:
+scrollbar_scroll_event	cellwidget.c	/^static gboolean scrollbar_scroll_event(GtkWidget *widget, GdkEventScroll *event)$/;"	f	file:
+scrollbar_value_changed	cellwidget.c	/^static void scrollbar_value_changed(void)$/;"	f	file:
+second_instance	main.c	/^static void second_instance(char *str)$/;"	f	file:
+select_key	cellwidget.c	/^void select_key(unsigned int my_key){$/;"	f
+selection_atom	libegg/eggtrayicon.h	/^  Atom selection_atom;$/;"	m	struct:_EggTrayIcon
+send_cell_key	cellwidget.c	/^static void send_cell_key(int cell)$/;"	f	file:
+set_flags	keywidget.c	/^static void set_flags(Key *key, int flags, int rotate)$/;"	f	file:
+set_geometry_hints	window.c	/^static void set_geometry_hints(void)$/;"	f	file:
+set_pen_color	cellwidget.c	/^static void set_pen_color(Sample *sample, int cell)$/;"	f	file:
+set_shifted	keywidget.c	/^static void set_shifted(Key *key, unsigned int keysym, const char *string)$/;"	f	file:
+set_size_request	cellwidget.c	/^static int set_size_request(int force)$/;"	f	file:
+setup_button	window.c	/^                 *setup_button, *keys_button, *insert_button,$/;"	v	file:
+setup_usable	keyevent.c	/^static void setup_usable(void)$/;"	f	file:
+shade_gdk_color	main.c	/^void shade_gdk_color(const GdkColor *base, GdkColor *out, double value)$/;"	f
+shift	keys.h	/^        unsigned char keycode, shift;$/;"	m	struct:__anon11
+show_context_menu	cellwidget.c	/^static void show_context_menu(int button, int time)$/;"	f	file:
+show_keys	cellwidget.c	/^           show_keys = TRUE, is_clear = TRUE, keys_dirty = FALSE;$/;"	v	file:
+simplify_stroke	stroke.c	/^void simplify_stroke(Stroke *s)$/;"	f
+single_instance_cleanup	singleinstance.c	/^void single_instance_cleanup(void)$/;"	f
+single_instance_init	singleinstance.c	/^int single_instance_init(SingleInstanceFunc func, const char *str)$/;"	f
+size	recognize.h	/^        int len, size, spread;$/;"	m	struct:__anon2
+slaved	keys.h	/^        int slaved, len, max_len, x, y, width, height, active, x_range, y_range,$/;"	m	struct:__anon13
+smooth_stroke	stroke.c	/^void smooth_stroke(Stroke *s)$/;"	f
+spacer_new	options.c	/^static GtkWidget *spacer_new(int width, int height)$/;"	f	file:
+spin_button_new_int	options.c	/^static GtkWidget *spin_button_new_int(int min, int max, int *variable,$/;"	f	file:
+spin_value_changed_int	options.c	/^static void spin_value_changed_int(GtkSpinButton *button, int *value)$/;"	f	file:
+spin_value_changed_int_repack	options.c	/^static void spin_value_changed_int_repack(GtkSpinButton *button, int *value)$/;"	f	file:
+spread	recognize.h	/^        int len, size, spread;$/;"	m	struct:__anon2
+stamp	libegg/eggtrayicon.h	/^  guint stamp;$/;"	m	struct:_EggTrayIcon
+start	common.h	/^        const int start, end;$/;"	m	struct:__anon9
+start_hold	cellwidget.c	/^static void start_hold(void)$/;"	f	file:
+start_timeout	cellwidget.c	/^static void start_timeout(void)$/;"	f	file:
+startup_splash_show	window.c	/^void startup_splash_show(void)$/;"	f
+status_icon	statusicon.c	/^static GObject *status_icon = NULL;$/;"	v	file:
+status_icon_activate	statusicon.c	/^static void status_icon_activate(void)$/;"	f	file:
+status_icon_create	statusicon.c	/^void status_icon_create(void)$/;"	f
+status_icon_embedded	statusicon.c	/^int status_icon_embedded(void)$/;"	f
+status_icon_embedded_check	window.c	/^static gint status_icon_embedded_check() {$/;"	f	file:
+status_icon_size_allocate	statusicon.c	/^static void status_icon_size_allocate(GtkWidget *widget, GtkAllocation *alloc)$/;"	f	file:
+status_image	statusicon.c	/^static GtkWidget *status_image;$/;"	v	file:
+status_menu	statusicon.c	/^static GtkWidget *status_menu, *status_menu_show = NULL;$/;"	v	file:
+status_menu_left_click	statusicon.c	/^int status_menu_left_click = FALSE;$/;"	v
+status_menu_popup	statusicon.c	/^static void status_menu_popup(GObject *status, guint button,$/;"	f	file:
+status_menu_show	statusicon.c	/^static GtkWidget *status_menu, *status_menu_show = NULL;$/;"	v	file:
+stop_drawing	cellwidget.c	/^static void stop_drawing(void)$/;"	f	file:
+stop_timeout	cellwidget.c	/^static void stop_timeout(void)$/;"	f	file:
+strength_sum	recognize.c	/^int strength_sum = 0;$/;"	v
+string	keys.h	/^        const char *string, *string_shift;$/;"	m	struct:__anon12
+string	wordfreq.c	/^        char string[24];$/;"	m	struct:__anon15	file:
+string_shift	keys.h	/^        const char *string, *string_shift;$/;"	m	struct:__anon12
+stroke_average	averages.c	/^static void stroke_average(Stroke *a, Stroke *b, float *pdist, float *pangle,$/;"	f	file:
+stroke_clone	stroke.c	/^Stroke *stroke_clone(const Stroke *src, int reverse)$/;"	f
+stroke_free	stroke.c	/^void stroke_free(Stroke *stroke)$/;"	f
+stroke_new	stroke.c	/^Stroke *stroke_new(int size)$/;"	f
+strokes	recognize.h	/^        Stroke *strokes[STROKES_MAX], *roughs[STROKES_MAX];$/;"	m	struct:__anon6
+style_colors	window.c	/^    window_force_hide = FALSE, style_colors = TRUE, window_embedded = FALSE,$/;"	v
+style_colors_changed	options.c	/^static void style_colors_changed(void)$/;"	f	file:
+style_set	keywidget.c	/^static void style_set(GtkWidget *w, GtkStyle *previous_style,$/;"	f	file:
+system_tray_opcode_atom	libegg/eggtrayicon.h	/^  Atom system_tray_opcode_atom;$/;"	m	struct:_EggTrayIcon
+tab_xpm	window.c	/^static char *tab_xpm[] =$/;"	v	file:
+timeout_source	cellwidget.c	/^           timeout_source,$/;"	v	file:
+timer	recognize.c	/^static GTimer *timer;$/;"	v	file:
+toggle_button_labels	window.c	/^static void toggle_button_labels(int on)$/;"	f	file:
+tooltips	window.c	/^GtkTooltips *tooltips;$/;"	v
+trace	common.h	157;"	d
+trace_full	main.c	/^void trace_full(const char *file, const char *func, const char *format, ...)$/;"	f
+train_button	window.c	/^                 *clear_button, *train_button, *buffer_button;$/;"	v	file:
+train_button_toggled	window.c	/^void train_button_toggled(void)$/;"	f
+train_label	window.c	/^static GtkWidget *train_label_box, *train_label_frame, *train_label = NULL,$/;"	v	file:
+train_label_box	window.c	/^static GtkWidget *train_label_box, *train_label_frame, *train_label = NULL,$/;"	v	file:
+train_label_frame	window.c	/^static GtkWidget *train_label_box, *train_label_frame, *train_label = NULL,$/;"	v	file:
+train_on_input	cellwidget.c	/^    enable_cairo = TRUE, training = FALSE, train_on_input = TRUE,$/;"	v
+train_sample	recognize.c	/^void train_sample(const Sample *sample, int trusted)$/;"	f
+training	cellwidget.c	/^    enable_cairo = TRUE, training = FALSE, train_on_input = TRUE,$/;"	v
+training_block	window.c	/^int window_force_x = -1, window_force_y = -1, training_block = 0,$/;"	v
+training_menu	cellwidget.c	/^static GtkWidget *drawing_area = NULL, *training_menu, *scrollbar;$/;"	v	file:
+training_menu_reset	cellwidget.c	/^static void training_menu_reset(void)$/;"	f	file:
+transform	recognize.h	/^        Transform transform;$/;"	m	struct:__anon6
+transform_stroke	recognize.c	/^Stroke *transform_stroke(Sample *src, Transform *tfm, int i)$/;"	f
+transparent_expose_event	libegg/eggtrayicon.c	/^transparent_expose_event (GtkWidget *widget, GdkEventExpose *event, gpointer user_data)$/;"	f	file:
+type_keycode	keyevent.c	/^static void type_keycode(KeyCode k)$/;"	f	file:
+unclear	cellwidget.c	/^static void unclear(int render)$/;"	f	file:
+unicode_block_toggle	window.c	/^void unicode_block_toggle(int block, int on)$/;"	f
+unicode_block_toggled	options.c	/^static void unicode_block_toggled(GtkCellRendererToggle *renderer, gchar *path,$/;"	f	file:
+unicode_blocks	window.c	/^UnicodeBlock unicode_blocks[] =$/;"	v
+untrain_char	recognize.c	/^void untrain_char(gunichar ch)$/;"	f
+update_enabled_samples	recognize.c	/^void update_enabled_samples(void)$/;"	f
+update_shifted	keywidget.c	/^static void update_shifted(KeyWidget *key_widget)$/;"	f	file:
+update_struts	window.c	/^static void update_struts(void)$/;"	f	file:
+usable	keyevent.c	/^static char usable[256], pressed[256];$/;"	v	file:
+used	recognize.h	/^        int used;$/;"	m	struct:__anon6
+va	main.c	/^char *va(const char *fmt, ...)$/;"	f
+valid	recognize.h	/^        unsigned char valid, order[STROKES_MAX], reverse[STROKES_MAX],$/;"	m	struct:__anon5
+vec2_angle	common.h	/^static inline ANGLE vec2_angle(const Vec2 *src)$/;"	f
+vec2_avg	common.h	/^static inline void vec2_avg(Vec2 *dest, const Vec2 *a, const Vec2 *b,$/;"	f
+vec2_copy	common.h	/^static inline void vec2_copy(Vec2 *dest, const Vec2 *src)$/;"	f
+vec2_cross	common.h	/^static inline float vec2_cross(const Vec2 *a, const Vec2 *b)$/;"	f
+vec2_dot	common.h	/^static inline float vec2_dot(const Vec2 *a, const Vec2 *b)$/;"	f
+vec2_from_angle	common.h	/^static inline void vec2_from_angle(Vec2 *dest, ANGLE angle, float mag)$/;"	f
+vec2_from_coords	common.h	211;"	d
+vec2_mag	common.h	/^static inline float vec2_mag(const Vec2 *src)$/;"	f
+vec2_norm	common.h	/^static inline float vec2_norm(Vec2 *dest, const Vec2 *a)$/;"	f
+vec2_proj	common.h	/^static inline void vec2_proj(Vec2 *dest, const Vec2 *a, const Vec2 *b)$/;"	f
+vec2_scale	common.h	/^static inline void vec2_scale(Vec2 *dest, const Vec2 *src, float scale)$/;"	f
+vec2_set	common.h	/^static inline void vec2_set(Vec2 *dest, float x, float y)$/;"	f
+vec2_square	common.h	/^static inline float vec2_square(const Vec2 *src)$/;"	f
+vec2_sub	common.h	/^static inline void vec2_sub(Vec2 *dest, const Vec2 *a, const Vec2 *b)$/;"	f
+vec2_sum	common.h	/^static inline void vec2_sum(Vec2 *dest, const Vec2 *a, const Vec2 *b)$/;"	f
+version_read	main.c	/^void version_read(void)$/;"	f
+which_key	keywidget.c	/^static int which_key(KeyWidget *key_widget, int ex, int ey)$/;"	f	file:
+width	keys.h	/^        int slaved, len, max_len, x, y, width, height, active, x_range, y_range,$/;"	m	struct:__anon13
+width	keys.h	/^        int x, y, width, height, rotate;$/;"	m	struct:__anon12
+width	options.c	/^int width=500, height=500;$/;"	v
+window	window.c	/^GtkWidget *window;$/;"	v
+window_button_labels	window.c	/^    window_button_labels = TRUE, window_force_show = FALSE,$/;"	v
+window_cleanup	window.c	/^void window_cleanup(void)$/;"	f
+window_close	window.c	/^gboolean window_close(void)$/;"	f
+window_configure	window.c	/^static gboolean window_configure(GtkWidget *widget, GdkEventConfigure *event)$/;"	f	file:
+window_create	window.c	/^void window_create(void)$/;"	f
+window_docked	window.c	/^    window_docked = WINDOW_UNDOCKED, window_force_docked = -1,$/;"	v
+window_docking_changed	options.c	/^static void window_docking_changed(GtkComboBox *combo)$/;"	f	file:
+window_embedded	window.c	/^    window_force_hide = FALSE, style_colors = TRUE, window_embedded = FALSE,$/;"	v
+window_force_docked	window.c	/^    window_docked = WINDOW_UNDOCKED, window_force_docked = -1,$/;"	v
+window_force_hide	window.c	/^    window_force_hide = FALSE, style_colors = TRUE, window_embedded = FALSE,$/;"	v
+window_force_show	window.c	/^    window_button_labels = TRUE, window_force_show = FALSE,$/;"	v
+window_force_x	window.c	/^int window_force_x = -1, window_force_y = -1, training_block = 0,$/;"	v
+window_force_y	window.c	/^int window_force_x = -1, window_force_y = -1, training_block = 0,$/;"	v
+window_frame	window.c	/^static GdkRectangle window_frame = {-1, -1, 0, 0}, window_frame_saved;$/;"	v	file:
+window_frame_saved	window.c	/^static GdkRectangle window_frame = {-1, -1, 0, 0}, window_frame_saved;$/;"	v	file:
+window_hide	window.c	/^void window_hide(void)$/;"	f
+window_pack	window.c	/^void window_pack(void)$/;"	f
+window_set_docked	window.c	/^void window_set_docked(int mode)$/;"	f
+window_show	window.c	/^void window_show(void)$/;"	f
+window_shown	window.c	/^           window_shown = TRUE, history_valid = FALSE, keys_on = FALSE;$/;"	v	file:
+window_struts	window.c	/^    window_struts = FALSE;$/;"	v
+window_style_set	window.c	/^static void window_style_set(GtkWidget *w)$/;"	f	file:
+window_sync	window.c	/^void window_sync(void)$/;"	f
+window_toggle	window.c	/^void window_toggle(void)$/;"	f
+window_update_colors	window.c	/^void window_update_colors(void)$/;"	f
+wordfreq_enable	wordfreq.c	/^int wordfreq_enable = TRUE;$/;"	v
+wordfreqs	wordfreq.c	/^static WordFreq wordfreqs[WORDFREQS + 1];$/;"	v	file:
+wordfreqs_count	wordfreq.c	/^static int wordfreqs_len, wordfreqs_count;$/;"	v	file:
+wordfreqs_len	wordfreq.c	/^static int wordfreqs_len, wordfreqs_count;$/;"	v	file:
+wrap_cells	cellwidget.c	/^static void wrap_cells(int new_rows, int new_cols)$/;"	f	file:
+write_func	main.c	/^        void (*write_func)(void);$/;"	m	struct:__anon7	file:
+x	common.h	/^	float x, y;$/;"	m	struct:Vec2
+x	keys.h	/^        int slaved, len, max_len, x, y, width, height, active, x_range, y_range,$/;"	m	struct:__anon13
+x	keys.h	/^        int x, y, width, height, rotate;$/;"	m	struct:__anon12
+x	recognize.h	/^        signed char x, y;$/;"	m	struct:__anon1
+x_range	keys.h	/^        int slaved, len, max_len, x, y, width, height, active, x_range, y_range,$/;"	m	struct:__anon13
+xinput_enabled	cellwidget.c	/^    right_to_left = FALSE, keyboard_enabled = 0, xinput_enabled = FALSE;$/;"	v
+xinput_enabled_toggled	options.c	/^static void xinput_enabled_toggled(void)$/;"	f	file:
+y	common.h	/^	float x, y;$/;"	m	struct:Vec2
+y	keys.h	/^        int slaved, len, max_len, x, y, width, height, active, x_range, y_range,$/;"	m	struct:__anon13
+y	keys.h	/^        int x, y, width, height, rotate;$/;"	m	struct:__anon12
+y	recognize.h	/^        signed char x, y;$/;"	m	struct:__anon1
+y_range	keys.h	/^        int slaved, len, max_len, x, y, width, height, active, x_range, y_range,$/;"	m	struct:__anon13
