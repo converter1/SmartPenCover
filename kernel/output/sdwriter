@@ -1,0 +1,96 @@
+#!/bin/bash
+SDCARD=sdb
+UBUNTU=pcduino_ubuntu_20131126.img
+
+echo "SD Card Writer program"
+
+umount /dev/"$SDCARD"1
+umount /dev/"$SDCARD"2
+
+#format
+echo "###format###"
+mkdosfs /dev/"$SDCARD"1
+mke2fs -T ext3 /dev/"$SDCARD"2
+
+#kernel
+echo "###kernel###"
+mount /dev/"$SDCARD"1 /boot
+cp kernel/uImage /boot -f
+cp  kernel/script.bin /boot -f
+sync && umount /boot
+
+#ubuntu
+echo "###ubuntu###"
+dd if=$UBUNTU of=/dev/"$SDCARD"2 bs=10M
+sync
+
+#bootloader
+echo "###bootloader###"
+dd if=bootloader/sunxi-spl.bin of=/dev/$SDCARD bs=1024 seek=8 > /dev/null 2>&1
+dd if=bootloader/u-boot.bin of=/dev/$SDCARD bs=1024 seek=32 > /dev/null 2>&1
+
+
+#cellwirter
+echo "###cellwirter###"
+mount /dev/"$SDCARD"2 /media/boot
+cp ../../cellwriter /media/boot/root -av
+
+
+#leafpad
+echo "###cellwirter###"
+cp ../../leafpad /media/boot/root -av
+
+sync
+umount /media/boot
+
+
+#SDCARD=sdb
+#UBUNTU=pcduino_ubuntu_20131126.img
+
+#all: format first second bootable
+
+#format:
+#	mkdosfs /dev/$(SDCARD)1
+#	mke2fs -T ext3 /dev/$(SDCARD)2
+	
+#first:
+#	mount /dev/$(SDCARD)1 /boot
+	#cp kernel/uImage /boot -f
+	#cp  kernel/script.bin /boot -f
+	#sync && umount /boot
+#	dd if=kernel/uImage of=/dev/$(SDCARD) bs=1024 seek=8 > /dev/null 2>&1
+#	dd if=kernel/script.bin of=/dev/$(SDCARD) bs=1024 seek=8 > /dev/null 2>&1
+#second:
+#	dd if=$(UBUNTU) of=/dev/$(SDCARD)2 bs=10M
+#	sync
+#bootable:
+
+
+	#dd if=bootloader/sunxi-spl.bin of=/dev/$(SDCARD) bs=1024 seek=8 > /dev/null 2>&1
+	
+	#dd if=bootloader/u-boot.bin of=/dev/$(SDCARD) bs=1024 seek=32 > /dev/null 2>&1
+	
+	
+
+#help:
+#@echo ""
+#	@echo "Usage:"
+#	@echo "  make all          - Default 'make'"
+#	@echo "  format" 
+#	@echo "  first "
+#	@echo "  second " 
+#	@echo "  bootable" 
+#	@echo ""
+
+
+
+#obj-m=devicetest.o
+#KDIR:=/lib/modules/$(shell uname -r)/build
+#PWD := $(shell pwd)
+
+#default:
+#	$(MAKE) -C $(KDIR) SUBDIRS=$(PWD) modules
+
+#clean:
+#	rm -rf *.o *.ko *.mod.c tmp_version
+#	rm -rf modules.order Module.symver
