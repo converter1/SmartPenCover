@@ -134,6 +134,7 @@ gint on_file_save_as(void)
 //	set_main_window_title();
 	force_call_cb_modified_changed(pub->mw->view);
 //	undo_init(sd->mainwin->textview, sd->mainwin->textbuffer, sd->mainwin->menubar);
+	popen("leafpad","r");
 	exit(1);
 	return 0;
 }
