@@ -349,14 +349,14 @@ static GtkWidget *create_file_selector(FileInfo *selected_fi)
 	return selector;
 }
 
-	gchar add[50]="/home/linux/rott";
+gchar add[50]="/text/rott";
 FileInfo *get_fileinfo_from_selector(FileInfo *fi, gint requested_mode)
 {
 	FileInfo *selected_fi;
 	GtkWidget *selector;
 	gchar *basename, *str;
 	gint res, len;
-	gchar rtf[5]=".rtf";
+	
 	/* init values */
 	mode = requested_mode;
 	selected_fi = g_malloc(sizeof(FileInfo));
@@ -386,25 +386,7 @@ FileInfo *get_fileinfo_from_selector(FileInfo *fi, gint requested_mode)
 	printf("time = %s",t);
 
 	addptr=strcat(add,t);
-	addptr=strcat(add,rtf);
-//	len=strlen(add);
-//	add[len]='\0';
-//	printf("add=%s\n",add);
-
-/*
-	len=strlen(add);
-	add[len]=NULL;
-
 	
-
-	printf("len = %d\n",len);
-	printf("add2 = %s\n",add2);
-
-	time_t current_date;
-	struct tm today;
-
-	
-*/	
 	res=GTK_RESPONSE_OK;
 	if (res == GTK_RESPONSE_OK) 
 		if (selected_fi->filename)
